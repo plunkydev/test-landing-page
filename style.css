@@ -23,3 +23,12 @@ nav {
 .nav-container > * {
     grid-column: 2;
 }
+.nav-flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-menu ul {
+    display: flex;
+    gap: 15px;
+}
