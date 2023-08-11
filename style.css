@@ -29,7 +29,15 @@ nav {
     justify-content: space-between;
     align-items: center;
 }
+.nav-logo a {
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 24px;
+    font-weight: 600;
+}
 .nav-menu ul {
+    color: var(--light-color);
     display: flex;
     gap: 15px;
+    list-style-type: none;
 }
