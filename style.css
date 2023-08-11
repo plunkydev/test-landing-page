@@ -36,8 +36,11 @@ nav {
     font-weight: 600;
 }
 .nav-menu ul {
-    color: var(--light-color);
+    list-style-type: none;
     display: flex;
     gap: 15px;
-    list-style-type: none;
+}
+.nav-menu ul a {
+    color: var(--light-color);
+    text-decoration: none;
 }
