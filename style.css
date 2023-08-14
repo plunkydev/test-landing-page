@@ -44,3 +44,9 @@ nav {
     color: var(--light-color);
     text-decoration: none;
 }
+
+/* fin nav */
+/* header area */
+header {
+    background-color: var(--color-dark);
+}
