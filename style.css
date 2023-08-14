@@ -12,6 +12,8 @@ body {
     margin: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
+    display: grid;
+    grid-template-rows: 1fr 8fr 8fr 6fr 5fr 1fr;
 }
 /* nav area */
 nav {
@@ -53,6 +55,7 @@ header {
 .header-container {
     display: grid;
     grid-template-columns: 1fr min(100ch, 100%) 1fr;
+    margin: 100px 0;
 }
 .header-container > * {
     grid-column: 2;
@@ -61,7 +64,6 @@ header {
     display: flex;
     align-items: center;
     gap: 40px;
-    margin: 70px 0 100px 0;
 }
 .header-item {
     background-color: lightgrey;
