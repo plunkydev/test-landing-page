@@ -57,3 +57,14 @@ header {
 .header-container > * {
     grid-column: 2;
 }
+.header-flex {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin: 70px 0 100px 0;
+}
+.header-item {
+    background-color: lightgrey;
+    height: 230px;
+    width: 100%;
+}
