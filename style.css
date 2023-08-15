@@ -18,6 +18,8 @@ body {
 /* nav area */
 nav {
     background-color: var(--color-dark);
+    position: sticky;
+    top: 0;
 }
 .nav-container {
     display: grid;
