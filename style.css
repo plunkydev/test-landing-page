@@ -76,6 +76,10 @@ h1 {
     font-weight: 900;
     margin: 0;
 }
+.header-hero p {
+    color: var(--half-light-color);
+    font-size: 18px;
+}
 .header-img img {
     object-fit: cover;
     width:100%;
