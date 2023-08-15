@@ -81,6 +81,15 @@ h1 {
 .header-hero p {
     color: var(--half-light-color);
     font-size: 18px;
+    margin: 0 0 10px 0;
+}
+.header-hero button {
+    color: var(--light-color);
+    background-color: var(--button-color);
+    border: none;
+    padding: 7px 30px;
+    border-radius: 7px;
+    font-weight: bold;
 }
 .header-img img {
     object-fit: cover;
