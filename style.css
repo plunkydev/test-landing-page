@@ -111,6 +111,19 @@ h1 {
     font-size: 32px;
     color: var(--color-dark);
 }
+.tags-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.tag-item {
+    flex-basis: 150px;
+}
+.tag-paragraph {
+    padding: 5px;
+    text-align: center;
+    color: var(--color-dark);
+}
 .tag-img {
     width: 150px;
     height: 150px;
