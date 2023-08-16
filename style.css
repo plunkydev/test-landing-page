@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     display: grid;
-    grid-template-rows: 1fr 8fr 8fr 6fr 5fr 1fr;
+    grid-template-rows: 1fr 6fr 6fr 6fr 5fr 1fr;
 }
 /* nav area */
 nav {
@@ -108,6 +108,11 @@ h1 {
 }
 .cita-container > * {
     grid-column: 2;
+    margin: 90px 56px;
+}
+.cita-item {
+    height: 230px;
+    width: 90%;
 }
 .cita {
     color: var(--color-dark);
