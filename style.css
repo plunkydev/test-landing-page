@@ -99,6 +99,13 @@ h1 {
 }
 /* fin header */
 /* seccion informacion */
+.seccion-informacion {
+    display: grid;
+    grid-template-columns: 1fr min(90ch, 100%) 1fr;
+}
+.seccion-informacion > * {
+    grid-column: 2;
+}
 /* fin seccion informacion */
 /* seccion cita */
 .seccion-cita {
