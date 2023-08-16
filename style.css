@@ -109,3 +109,9 @@ h1 {
 .cita-container > * {
     grid-column: 2;
 }
+.cita {
+    color: var(--color-dark);
+    font-style: italic;
+    font-size: 36px;
+    font-weight: 300;
+}
