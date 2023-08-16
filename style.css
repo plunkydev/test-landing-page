@@ -105,6 +105,7 @@ h1 {
 }
 .seccion-informacion > * {
     grid-column: 2;
+    margin: 10px 0 50px 0;
 }
 .informacion-container h2 {
     text-align: center;
