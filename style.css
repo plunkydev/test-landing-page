@@ -97,3 +97,15 @@ h1 {
     width:100%;
     height:100%;
 }
+/* fin header */
+/* seccion cita */
+.seccion-cita {
+    background-color: var(--half-light-color);
+}
+.cita-container {
+    display: grid;
+    grid-template-columns: 1fr min(100ch, 100%) 1fr;
+}
+.cita-container > * {
+    grid-column: 2;
+}
