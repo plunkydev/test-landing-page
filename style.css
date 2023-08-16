@@ -98,6 +98,8 @@ h1 {
     height:100%;
 }
 /* fin header */
+/* seccion informacion */
+/* fin seccion informacion */
 /* seccion cita */
 .seccion-cita {
     background-color: var(--half-light-color);
@@ -127,3 +129,4 @@ h1 {
     text-align: right;
     margin-right: 16px;
 }
+/* fin seccion cita */
