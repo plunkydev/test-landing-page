@@ -199,3 +199,12 @@ h1 {
     cursor: pointer;
 }
 /* fin seccion call to action */
+/* footer */
+footer {
+    background-color: var(--color-dark);
+    color: var(--half-light-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+/* fin del footer */
