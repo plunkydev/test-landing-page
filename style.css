@@ -13,7 +13,7 @@ body {
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
     display: grid;
-    grid-template-rows: 57px 430px 1fr 430px 218px 57px;
+    grid-template-rows: 70px 430px 1fr 430px 273px 70px;
 }
 /* nav area */
 nav {
